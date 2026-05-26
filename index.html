@@ -1,0 +1,602 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nicolas Roudot – Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link href="https://fonts.googleapis.com/css2?family=Rajdhani:wght@400;500;600;700&family=Exo+2:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <script src="https://unpkg.com/lucide@latest/dist/umd/lucide.js"></script>
+</head>
+<body>
+
+  <div class="page-wrapper">
+    <header class="profile-header">
+      <div class="banner">
+        <div class="banner-glow banner-glow--left"></div>
+        <div class="banner-glow banner-glow--right"></div>
+      </div>
+
+      <div class="profile-info">
+        <div class="profile-row">
+          <div class="avatar">
+            <!-- <img src="./img/image1.jpg" alt="Photo de Nicolas Roudot" class="avatar-icon" /> -->
+            <i data-lucide="user" class="avatar-icon"></i>
+          </div>
+
+          <div class="profile-text">
+            <h1 class="profile-name">Nicolas Roudot</h1>
+            <p class="profile-title">Développeur Full Stack</p>
+            <div class="profile-meta">
+              <span class="meta-item">
+                <i data-lucide="map-pin" class="meta-icon"></i>
+                Strasbourg, France
+              </span>
+              <span class="meta-item">
+                <i data-lucide="link" class="meta-icon"></i>
+                <a href="mailto:roudot.nicolas@epitech.eu" class="meta-link">roudot.nicolas@epitech.eu</a>
+              </span>
+            </div>
+          </div>
+
+          <div class="level-badge">
+            <span class="level-label">Level</span>
+            <span class="level-number">42</span>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <section class="section stats-section">
+      <div class="stats-grid">
+
+        <div class="stat-card">
+          <div class="stat-icon-wrap">
+            <i data-lucide="clock" class="stat-icon"></i>
+          </div>
+          <div class="stat-info">
+            <span class="stat-value">3+</span>
+            <span class="stat-label">Années d'étude</span>
+          </div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon-wrap">
+            <i data-lucide="folder" class="stat-icon"></i>
+          </div>
+          <div class="stat-info">
+            <span class="stat-value">12+</span>
+            <span class="stat-label">Projets complétés</span>
+          </div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon-wrap">
+            <i data-lucide="code" class="stat-icon"></i>
+          </div>
+          <div class="stat-info">
+            <span class="stat-value">8+</span>
+            <span class="stat-label">Technologies maîtrisées</span>
+          </div>
+        </div>
+
+        <div class="stat-card">
+          <div class="stat-icon-wrap">
+            <i data-lucide="award" class="stat-icon"></i>
+          </div>
+          <div class="stat-info">
+            <span class="stat-value">15/30</span>
+            <span class="stat-label">Achievements</span>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">Achievements</h2>
+          <p class="card-subtitle">28 sur 50 débloqués</p>
+        </div>
+        <div class="card-body achievements-grid">
+
+          <div class="achievement unlocked">
+            <div class="ach-icon-wrap ach-rare">
+              <i data-lucide="trophy" class="ach-icon"></i>
+            </div>
+            <div class="ach-info">
+              <div class="ach-top">
+                <span class="ach-title">React Developer</span>
+                <span class="ach-rarity rarity-rare">Rare</span>
+              </div>
+              <p class="ach-desc">Créé des applications avec React</p>
+            </div>
+          </div>
+
+          <div class="achievement unlocked">
+            <div class="ach-icon-wrap ach-epic">
+              <i data-lucide="star" class="ach-icon"></i>
+            </div>
+            <div class="ach-info">
+              <div class="ach-top">
+                <span class="ach-title">Full Stack Builder</span>
+                <span class="ach-rarity rarity-epic">Epic</span>
+              </div>
+              <p class="ach-desc">Maîtrise front-end et back-end</p>
+            </div>
+          </div>
+
+          <div class="achievement unlocked">
+            <div class="ach-icon-wrap ach-rare">
+              <i data-lucide="zap" class="ach-icon"></i>
+            </div>
+            <div class="ach-info">
+              <div class="ach-top">
+                <span class="ach-title">Security Tester</span>
+                <span class="ach-rarity rarity-rare">Rare</span>
+              </div>
+              <p class="ach-desc">Tests de vulnérabilité (OWASP, Burp Suite)</p>
+            </div>
+          </div>
+
+          <div class="achievement unlocked">
+            <div class="ach-icon-wrap ach-common">
+              <i data-lucide="target" class="ach-icon"></i>
+            </div>
+            <div class="ach-info">
+              <div class="ach-top">
+                <span class="ach-title">Project Manager</span>
+                <span class="ach-rarity rarity-common">Common</span>
+              </div>
+              <p class="ach-desc">Gestion de projets en alternance</p>
+            </div>
+          </div>
+
+          <div class="achievement unlocked">
+            <div class="ach-icon-wrap ach-common">
+              <i data-lucide="users" class="ach-icon"></i>
+            </div>
+            <div class="ach-info">
+              <div class="ach-top">
+                <span class="ach-title">IA builder</span>
+                <span class="ach-rarity rarity-rare">rare</span>
+              </div>
+              <p class="ach-desc">Createur de chatbot</p>
+            </div>
+          </div>
+
+          <div class="achievement unlocked">
+            <div class="ach-icon-wrap ach-rare">
+              <i data-lucide="rocket" class="ach-icon"></i>
+            </div>
+            <div class="ach-info">
+              <div class="ach-top">
+                <span class="ach-title">Epitech Student</span>
+                <span class="ach-rarity rarity-rare">Rare</span>
+              </div>
+              <p class="ach-desc">Formation Bachelor en cours</p>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">Compétences</h2>
+          <p class="card-subtitle">Technologies et savoir-faire</p>
+        </div>
+        <div class="card-body skills-grid">
+
+          <div class="skill-cat">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i data-lucide="code-2" class="scat-icon"></i>
+              </div>
+              <span class="skill-cat-title">Langages &amp; Web</span>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-label-row"><span>Python</span><span class="skill-pct">85%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label-row"><span>C</span><span class="skill-pct">80%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label-row"><span>JavaScript</span><span class="skill-pct">85%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label-row"><span>HTML/CSS</span><span class="skill-pct">90%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label-row"><span>PHP</span><span class="skill-pct">65%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width:65%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-cat">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i data-lucide="database" class="scat-icon"></i>
+              </div>
+              <span class="skill-cat-title">Frameworks &amp; BDD</span>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-label-row"><span>React</span><span class="skill-pct">85%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label-row"><span>Express</span><span class="skill-pct">80%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width:80%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label-row"><span>SQL</span><span class="skill-pct">75%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-cat">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i data-lucide="shield" class="scat-icon"></i>
+              </div>
+              <span class="skill-cat-title">Sécurité</span>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-label-row"><span>OWASP Juice Shop</span><span class="skill-pct">70%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label-row"><span>Burp Suite</span><span class="skill-pct">75%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width:75%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label-row"><span>Tests de vulnérabilité</span><span class="skill-pct">70%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width:70%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-cat">
+            <div class="skill-cat-header">
+              <div class="skill-cat-icon">
+                <i data-lucide="wrench" class="scat-icon"></i>
+              </div>
+              <span class="skill-cat-title">Soft Skills</span>
+            </div>
+            <div class="skill-list">
+              <div class="skill-item">
+                <div class="skill-label-row"><span>Autonome</span><span class="skill-pct">90%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label-row"><span>Créatif</span><span class="skill-pct">85%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label-row"><span>Travail d'équipe</span><span class="skill-pct">90%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label-row"><span>Conception de projet</span><span class="skill-pct">90%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width:90%"></div></div>
+              </div>
+              <div class="skill-item">
+                <div class="skill-label-row"><span>Dynamique</span><span class="skill-pct">85%</span></div>
+                <div class="skill-bar"><div class="skill-fill" style="width:85%"></div></div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">Expériences Professionnelles</h2>
+          <p class="card-subtitle">Parcours et missions réalisées</p>
+        </div>
+        <div class="card-body exp-list">
+
+          <div class="exp-item">
+            <div class="exp-top">
+              <div class="exp-left">
+                <div class="exp-icon-wrap">
+                  <i data-lucide="briefcase" class="exp-icon"></i>
+                </div>
+                <div class="exp-details">
+                  <h3 class="exp-title">GPME en Alternance</h3>
+                  <p class="exp-company">Decopeint</p>
+                  <p class="exp-location">Strasbourg, France</p>
+                </div>
+              </div>
+              <div class="exp-right">
+                <span class="exp-period"><i data-lucide="calendar" class="inline-icon"></i> 2022 – 2023</span>
+                <span class="exp-type">Alternance</span>
+              </div>
+            </div>
+            <ul class="exp-resp">
+              <li>Rédaction des rapports de progression</li>
+              <li>Participation aux réunions de suivi de projet</li>
+              <li>Suivi de l'avancement des projets</li>
+              <li>Collaboration avec les différentes équipes</li>
+            </ul>
+          </div>
+
+          <div class="exp-item">
+            <div class="exp-top">
+              <div class="exp-left">
+                <div class="exp-icon-wrap">
+                  <i data-lucide="briefcase" class="exp-icon"></i>
+                </div>
+                <div class="exp-details">
+                  <h3 class="exp-title">BTP</h3>
+                  <p class="exp-company">Hélio Hekios</p>
+                  <p class="exp-location">Strasbourg, France</p>
+                </div>
+              </div>
+              <div class="exp-right">
+                <span class="exp-period"><i data-lucide="calendar" class="inline-icon"></i> 2021 – 2023</span>
+                <span class="exp-type">Stage</span>
+              </div>
+            </div>
+            <ul class="exp-resp">
+              <li>Définition des objectifs et périmètres du projet</li>
+              <li>Participation à l'élaboration des plans de projet (échéanciers, jalons et livrables)</li>
+              <li>Mise à profit des connaissances sur le terrain</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">Formation &amp; Certifications</h2>
+          <p class="card-subtitle">Parcours académique et professionnel</p>
+        </div>
+        <div class="card-body">
+
+          <h3 class="subsection-title">
+            <i data-lucide="graduation-cap" class="subsection-icon"></i>
+            Diplômes
+          </h3>
+          <div class="edu-list">
+
+            <div class="edu-item">
+              <div class="edu-top">
+                <div>
+                  <h4 class="edu-degree">Filière Bachelor</h4>
+                  <p class="edu-school">Epitech Strasbourg</p>
+                </div>
+                <span class="edu-period">2025 – 2028</span>
+              </div>
+              <p class="edu-location"><i data-lucide="map-pin" class="inline-icon"></i> Strasbourg, France</p>
+              <p class="edu-desc">Formation en développement informatique et gestion de projets</p>
+              <ul class="edu-ach">
+                <li>Projets pratiques en équipe</li>
+                <li>Spécialisation développement web et sécurité</li>
+              </ul>
+            </div>
+
+            <div class="edu-item">
+              <div class="edu-top">
+                <div>
+                  <h4 class="edu-degree">UFR Math/Info</h4>
+                  <p class="edu-school">Université de Strasbourg</p>
+                </div>
+                <span class="edu-period">2023 – 2025</span>
+              </div>
+              <p class="edu-location"><i data-lucide="map-pin" class="inline-icon"></i> Strasbourg, France</p>
+              <p class="edu-desc">Formation en mathématiques et informatique</p>
+              <ul class="edu-ach">
+                <li>Bases solides en algorithmique</li>
+                <li>Programmation C et Python</li>
+              </ul>
+            </div>
+
+            <div class="edu-item">
+              <div class="edu-top">
+                <div>
+                  <h4 class="edu-degree">BTS GPME</h4>
+                  <p class="edu-school">Lycée Sainte-Clotilde</p>
+                </div>
+                <span class="edu-period">2022 – 2023</span>
+              </div>
+              <p class="edu-location"><i data-lucide="map-pin" class="inline-icon"></i> Strasbourg, France</p>
+              <p class="edu-desc">Gestion de la PME – Formation en alternance</p>
+              <ul class="edu-ach">
+                <li>Alternance chez Decopeint</li>
+                <li>Gestion de projets et reporting</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <h3 class="subsection-title" style="margin-top:2rem">
+            <i data-lucide="calendar" class="subsection-icon"></i>
+            Certifications
+          </h3>
+          <div class="cert-grid">
+
+            <div class="cert-item">
+              <h4 class="cert-name">OWASP Juice Shop</h4>
+              <p class="cert-issuer">Tests de sécurité</p>
+              <span class="cert-date"><i data-lucide="calendar" class="inline-icon"></i> 2024</span>
+            </div>
+
+            <div class="cert-item">
+              <h4 class="cert-name">Burp Suite</h4>
+              <p class="cert-issuer">Tests de vulnérabilité</p>
+              <span class="cert-date"><i data-lucide="calendar" class="inline-icon"></i> 2024</span>
+            </div>
+
+            <div class="cert-item">
+              <h4 class="cert-name">Anglais B2</h4>
+              <p class="cert-issuer">Niveau certifié</p>
+              <span class="cert-date"><i data-lucide="calendar" class="inline-icon"></i> 2024</span>
+            </div>
+
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">Projets Récents</h2>
+          <p class="card-subtitle">Mes dernières réalisations</p>
+        </div>
+        <div class="card-body proj-list">
+
+            <div class="proj-item">
+                <div class="proj-thumb">
+                  <span class="proj-thumb-letter">P</span>
+                </div>
+                <div class="proj-info">
+                  <div class="proj-top">
+                    <div>
+                      <h3 class="proj-title">
+                        Job Aggregator
+                        <i data-lucide="external-link" class="proj-ext-icon"></i>
+                      </h3>
+                      <p class="proj-desc">Plateforme fullstack d'agrégation d'offres d'emploi et de stages : collecte via API WeLoveDevs, normalisation des données, feature IA de recommandation, sécurité OWASP et déploiement Docker</p>
+                    </div>
+                    <span class="proj-status status-done">Complété</span>
+                  </div>
+                  <div class="proj-tags">
+                    <span class="tag">React </span>
+                    <span class="tag">Express</span>
+                    <span class="tag">SQL</span>
+                    <span class="tag">Docker</span>
+                    <span class="tag">LM Studio</span>
+                  </div>
+                  <div class="proj-footer">
+                    <span class="proj-stat"><i data-lucide="star" class="inline-icon"></i> 12</span>
+                    <span class="proj-stat"><i data-lucide="git-fork" class="inline-icon"></i> 2</span>
+                    <span class="proj-hours">150h de développement</span>
+                  </div>
+                </div>
+              </div>
+    
+          <div class="proj-item">
+            <div class="proj-thumb">
+              <span class="proj-thumb-letter">R</span>
+            </div>
+            <div class="proj-info">
+              <div class="proj-top">
+                <div>
+                  <h3 class="proj-title">
+                    Réseau Social Innovant
+                    <i data-lucide="external-link" class="proj-ext-icon"></i>
+                  </h3>
+                  <p class="proj-desc">Création d'un réseau social avec nouveau mode d'affichage de contenu court</p>
+                </div>
+                <span class="proj-status status-done">Complété</span>
+              </div>
+              <div class="proj-tags">
+                <span class="tag">React</span>
+                <span class="tag">JavaScript</span>
+                <span class="tag">Express</span>
+                <span class="tag">SQL</span>
+              </div>
+              <div class="proj-footer">
+                <span class="proj-stat"><i data-lucide="star" class="inline-icon"></i> 24</span>
+                <span class="proj-stat"><i data-lucide="git-fork" class="inline-icon"></i> 5</span>
+                <span class="proj-hours">130h de développement</span>
+              </div>
+            </div>
+          </div>
+
+
+          <div class="proj-item">
+            <div class="proj-thumb">
+              <span class="proj-thumb-letter">A</span>
+            </div>
+            <div class="proj-info">
+              <div class="proj-top">
+                <div>
+                  <h3 class="proj-title">
+                    Application Todo
+                    <i data-lucide="external-link" class="proj-ext-icon"></i>
+                  </h3>
+                  <p class="proj-desc">Application de gestion de tâches avec interface moderne</p>
+                </div>
+                <span class="proj-status status-done">Complété</span>
+              </div>
+              <div class="proj-tags">
+                <span class="tag">JavaScript</span>
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+                <span class="tag">PHP</span>
+              </div>
+              <div class="proj-footer">
+                <span class="proj-stat"><i data-lucide="star" class="inline-icon"></i> 18</span>
+                <span class="proj-stat"><i data-lucide="git-fork" class="inline-icon"></i> 4</span>
+                <span class="proj-hours">90h de développement</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="proj-item">
+            <div class="proj-thumb">
+              <span class="proj-thumb-letter">C</span>
+            </div>
+            <div class="proj-info">
+              <div class="proj-top">
+                <div>
+                  <h3 class="proj-title">
+                    ELIZA – Chatbot Intelligent
+                    <i data-lucide="external-link" class="proj-ext-icon"></i>
+                  </h3>
+                  <p class="proj-desc">Conception d'un chatbot métier avec identité visuelle forte, landing page de promotion et analyse ROI/KPIs</p>
+                </div>
+                <span class="proj-status status-done">Complété</span>
+              </div>
+              <div class="proj-tags">
+                <span class="tag">Python</span>
+                <span class="tag">LM Studio</span>
+                <span class="tag">HTML</span>
+                <span class="tag">CSS</span>
+              </div>
+              <div class="proj-footer">
+                <span class="proj-stat"><i data-lucide="star" class="inline-icon"></i> 15</span>
+                <span class="proj-stat"><i data-lucide="git-fork" class="inline-icon"></i> 3</span>
+                <span class="proj-hours">70h de développement</span>
+              </div>
+            </div>
+          </div>
+
+          
+        </div>
+      </div>
+    </section>
+
+    <footer class="site-footer">
+      <p>© 2026 Nicolas Roudot – Portfolio</p>
+    </footer>
+
+  </div>
+
+  <script>
+    lucide.createIcons();
+  </script>
+</body>
+</html>
